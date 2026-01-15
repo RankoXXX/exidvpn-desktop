@@ -4,7 +4,7 @@ const BASE_URL = 'https://api.dvpnsdk.com'
 
 // Backend URL for payment processing
 // This should be configured in production
-const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:8080'
+const BACKEND_URL = 'https://exidvpn-ff45640f1324.herokuapp.com'
 
 export interface Country {
   id: string
